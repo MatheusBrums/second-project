@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(51, 50, 50, 0.438);
+}
+header{
+    min-height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header h1{
+    font-size: 3em;
+    font-variant: small-caps;
+    padding-bottom: 20px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+section{
+    line-height: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    
+    background-color: white;
+    font-size: 3vw;
+    padding: 40px 0px;
+    padding-left: 40px;
+}
+section p{
+    margin: 60px 0px;
+}
+div p{
+    background-color: rgba(39, 37, 37, 0.575);
+    color: white;
+    background-attachment: fixed;
+    display: inline-block;
+    padding: 5px;
+   
+}
+div{
+    line-height: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    
+    font-size: 3vw;
+    padding: 40px 0px;
+    padding-left: 40px;
+}
+#Fundo01{
+    background-image: url('imagens/background001.jpg');
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#Fundo02{
+    background-image: url('imagens/background002.jpg');
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
